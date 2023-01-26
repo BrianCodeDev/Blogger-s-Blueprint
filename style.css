@@ -1,0 +1,62 @@
+/* navbar styling */
+.navbar {
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.collapse .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+/* styling for blog layout and cards */
+.card-blog-container {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.card-blog-container .display {
+    display: flex;
+}
+.card-blog-container .display .avatar-profile img {
+    border-color: black;
+    border-style: solid;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 2px 2px rgb(119, 119, 119);
+}
+.card-blog-container .display .avatar-profile h2 {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.card-blog-container .display .avatar-profile .profile {
+    font-size: 15px;
+    margin: 0;
+    margin-left: 15px;
+}
+.card-blog-container .bio p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.card-blog-container .bio-title h2 {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* header styling */
+.header-container {
+    background-color: rgb(3, 126, 126);
+    height: 300px;
+}
